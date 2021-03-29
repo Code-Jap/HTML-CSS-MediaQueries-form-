@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Code geschreven door Jap</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body background="image/food.jpg">
+    <header>
+        <h1 class="opmaak">Recepten formulier</h1>
+    </header>
+
+
+    <form name="recepten-formulier" method="POST" data-netlify="true" class="border-5">
+        <p>
+            <label>Naam:</label><input type="text" name="naam:">
+        </p>
+        <p>
+            <label>Email:</label><input type="email" name="email:">
+        </p>
+        <p>
+            <label>Telefoonnummer:</label><input type="tel" name="telefoonnummer:">
+        </p>
+        <p>
+            <label>leeftijd:</label><input type="number" name="leeftijd:">
+        </p>
+        <hr>
+        <p>
+            <label>Geslacht:</label>
+        </p>
+        <p>
+            <input name="Geslacht:" type="radio" value="man">
+            <label for="man">Man</label>
+            <input name="Geslacht:" type="radio" value="vrouw">
+            <label for="vrouw">Vrouw</label>
+        </p>
+        <p>
+            <label>Favoriete keuken:</label>
+        </p>
+        <p>
+            <input type="checkbox" name="Gerecht1:" value="Frans">
+            <label for="Frans">Frans</label><br>
+            <input type="checkbox" name="Gerecht2:" value="Spaans">
+            <label for="Spaans">Spaans</label><br>
+            <input type="checkbox" name="Gerecht3:" value="Italiaans">
+            <label for="Italiaans">Italiaans</label><br>
+            <input type="checkbox" name="Gerecht4:" value="Arabisch">
+            <label for="Arabisch">Arabisch</label>
+        </p>
+        <p>
+            <label>Biografie:</label>
+            <textarea name="biografie:" rows="8" cols="30"></textarea>
+        </p>
+        <hr>
+        <p>
+            <label>Upload je laatste gerecht:</label>
+            <input type="file" name="gerecht:">
+        </p>
+        <p>
+            <label>Link naar je recepten website:</label>
+            <input type="url" name="url:">
+        </p>
+        <p>
+            <input type="reset">
+            <input type="submit">
+        </p>
+    </form>
+
+    <nav class="nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </nav>
+
+</body>
+
+</html>
